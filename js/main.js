@@ -44,11 +44,11 @@
     /* testimonials Slider Active
     =============================*/
     $('.team-slide').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         responsiveClass: true,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
         navText: ['<i class="lnr lnr-chevron-left"></i>', '<i class="lnr lnr-chevron-right"></i>'],
